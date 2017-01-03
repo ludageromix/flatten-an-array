@@ -5,7 +5,7 @@
             if(!is_array($value)){
                 $out[]=$value;
                 }  else {
-                $out=array_merge($out,$this->flatten($value));    
+                $out=array_merge($out,flatten($value));    
                 }
         }
         
